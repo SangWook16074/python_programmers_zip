@@ -60,7 +60,7 @@ def solution(words, queries):
             left_value = query.replace('?', 'a')
             right_value = query.replace('?', 'z')
 
-            result = count_by_range(
+            result = count(
                 array[len(query)],
                 left_value,
                 right_value,
